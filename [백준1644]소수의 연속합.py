@@ -1,5 +1,4 @@
 import sys
-import math
 
 def solve() -> int:
   def prime_list(n: int) -> list[int]:
