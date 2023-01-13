@@ -2,7 +2,6 @@ import sys
 sys.setrecursionlimit(10**6)
 def solution() -> None:
     arr = []
-    idx = 0
 
     def dfs(i: int, j: int, arr: list[list[int]]) -> None:
         if not (0 <= i < len(arr)) or \
